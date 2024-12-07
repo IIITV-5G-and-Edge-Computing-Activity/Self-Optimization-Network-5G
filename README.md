@@ -1,11 +1,22 @@
-## Self-Optimizing Networks (SON) Project for 5G
+## Self-Optimizing Networks (SON) 5G Project 
 
 ## 📑 Table of Contents
 
 - [Group Details](#group-details)
 - [Mentor](#mentor)
 - [Video Presentation](#video-presentation)
-- [Project Overview](#-project-overview)
+- [Project Overview](#project-overview)
+- [Problem Statement](#problem-statement)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Workflow](#project-workflow)
+- [Example Outputs](#example-outputs)
+- [Future Scope](#future-scope)
+- [Contributing](#contributing)
+- [Acknowledgements](#acknowledgements)
+- [Screenshots](#screenshots)
 
 ---
 
@@ -30,13 +41,13 @@
 
 ---
 
-**#** Project Overview
+## Project Overview
 
 This project demonstrates a **Self-Optimizing Network (SON)** implementation for 5G using **Machine Learning (ML)**. It showcases how clustering algorithms can detect bottlenecks, and anomaly detection models can identify unusual network behaviors, enabling dynamic optimization of network parameters.
 
 ---
 
-**#** Problem Statement
+## Problem Statement
 
 Managing 5G networks manually is complex and time-consuming. With increasing traffic and dynamic network conditions, maintaining optimal performance requires automation. This project addresses these challenges by:
 
@@ -46,7 +57,7 @@ Managing 5G networks manually is complex and time-consuming. With increasing tra
 
 ---
 
-**#** Features
+## Features
 
 * **Data Simulation**: Generate synthetic 5G network data, including traffic load, signal strength, bandwidth usage, and latency.
 * **Clustering (K-Means)**: Classify network sectors as "normal" or "overloaded."
@@ -56,7 +67,7 @@ Managing 5G networks manually is complex and time-consuming. With increasing tra
 
 ---
 
-**#** Technologies Used
+## Technologies Used
 
 * **Python**
   - Libraries: `numpy`, `pandas`, `matplotlib`, `scikit-learn`
@@ -66,20 +77,20 @@ Managing 5G networks manually is complex and time-consuming. With increasing tra
 
 ---
 
-**#** Installation
+## Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/self-optimizing-network-5G.git
+git clone https://github.com/IIITV-5G-and-Edge-Computing-Activity/Self-Optimization-Network-5G.git
 
 # Navigate to the project directory
-cd self-optimizing-network
+cd Self-Optimization-Network-5G
 
 # Install the required dependencies
 pip install -r requirements.txt
 ```
 
-**#** Usage
+## Usage
 
 Open the project in Google Colab or any Python IDE.
 Run the provided Python scripts step-by-step:
@@ -90,7 +101,7 @@ Run the provided Python scripts step-by-step:
 4. Adjust network parameters dynamically.
 5. Visualize the results using scatter plots.
 
-**#** Project Workflow
+## Project Workflow
 
 1. **Data Simulation:** Generate 100 synthetic records of network metrics.
 2. **Bottleneck Detection:** Apply K-Means Clustering to classify network performance.
@@ -102,7 +113,7 @@ Run the provided Python scripts step-by-step:
     * Improve signal strength in low-quality areas.
 5. **Visualization:** Scatter plots comparing network performance before and after optimization.
 
-**#** Example Outputs
+## Example Outputs
 
 **## Bottleneck Detection**
 
@@ -125,23 +136,23 @@ Visualization of adjusted parameters:
 * Traffic load reduced by 20%.
 * Signal strength improved by 10 dB.
 
-**#** Future Scope
+## Future Scope
 
 * Integration with real-world 5G network data.
 * Advanced ML models (e.g., reinforcement learning) for optimization.
 * Support for multi-cell networks and dynamic routing.
 
-**#** Contributing
+## Contributing
 
 Fork this repository and create a feature branch before making any changes. 
 
-**#** Acknowledgements
+## Acknowledgements
 
 * 5G concepts and implementation inspired by academic resources.
 * Machine learning algorithms implemented using scikit-learn.
 * Visualization powered by matplotlib and pandas.
 
-**#** Screenshots
+## Screenshots
 * Before_Optimization.png (Traffic load vs. latency with clusters shown)
 * ![before_optimization](Images/latencyVStraffic.png)
 * After_Optimization.png (Adjusted metrics after dynamic optimization)
